@@ -40,7 +40,7 @@ public class BookStore extends JFrame implements MouseListener {
         for (int i = 0; i < 6; i++) {
             int x = 65 + (190 * i);
 
-            icons[i] = new ImageIcon("book" + (i+1) + ".jpg"); 
+            icons[i] = new ImageIcon("Book" + (i+1) + ".jpeg"); 
             JPanel imagePanel = new JPanel();
             imagePanel.setBounds(x, 50, 150, 180);
             imagePanel.setBackground(Color.WHITE);
@@ -173,4 +173,5 @@ public class BookStore extends JFrame implements MouseListener {
         new BookStore().setVisible(true);
     }
 }
+
 
